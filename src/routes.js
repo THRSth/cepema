@@ -7,7 +7,7 @@ import Pesquisa from "./Pages/Pesquisa";
 import Estrutura from "./Pages/Estrutura";
 import Cap from "./Pages/CAP";
 import Contato from "./Pages/Contato";
-import localizacao from './Pages/Localizacao';
+import MapContainer from './Pages/Localizacao';
 
 const  Routes = () => (
     <BrowserRouter>
@@ -18,7 +18,7 @@ const  Routes = () => (
         <Route exact path="/estrutura" component={Estrutura}/>
         <Route exact path="/cap" component={Cap}/>
         <Route exact path="/contato" component={Contato}/>
-        <Route exact path="/localizacao" component={localizacao}/>
+        <Route exact path="/localizacao" component={MapContainer}/>
     </Switch>
     </BrowserRouter>
 );

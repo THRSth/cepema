@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, Marker  } from 'google-maps-react';
-import  "./index.css";
 
 export class MapContainer extends Component {
 
@@ -28,7 +27,7 @@ export class MapContainer extends Component {
 
     render() {
       return (
-        <div className="containerMap">
+  
         <Map
           google={this.props.google}
           zoom={7}
@@ -37,14 +36,7 @@ export class MapContainer extends Component {
                     {this.displayMarkers()}
 
         </Map>
-        </div>
+  
       );
     }
   }
-
-  export default GoogleApiWrapper(
-    (props) => ({
-      apiKey: 'AIzaSyA62tMgXdavlGcbEVXOdll-Rypj1I6bfUE',
-    }
-  ))(MapContainer)
-  
