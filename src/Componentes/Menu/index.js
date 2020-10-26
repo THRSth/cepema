@@ -1,24 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './index.css';
 
 const Menu = () => {
     return (
         <>
-          <nav>
+          <nav className='menuNav'>
                 <div className="nav-wrapper">
-                <Link to="/" className="brand-logo">Logo</Link>
-                <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><Link to="/">INÍCIO</Link></li>
-                    <li><Link to="/pesquisa">PESQUISA</Link></li>
-                    <li><Link to="/estrutura">ESTRUTURA</Link></li>
-                    <li><Link to="/cap">CENTRO APRENDIZ DE PESQUISADOR</Link></li>
-                    <li><Link to="/contato">CONTATO</Link></li>
-                    <li><Link to="/localizacao">LOCALIZAÇÃO</Link></li>
+                <Link to="/" className="brand-logo fontColor"><img className='containerLogo' src={require('../../assets/img/sony_logo_PNG7.png')}/></Link>
+                  <Link href="#" class="brand-logo right"><img className='containerLogoFim' src={require('../../assets/img/sony_logo_PNG7.png')}/></Link>
+                <ul id="nav-mobile" className="right hide-on-med-and-down navUl">
+                    <li><Link to="/" className="fontColor">Inicio</Link></li>
+                    <li><Link to="/pesquisa" className="fontColor">Equipe</Link></li>
+                    <li><Link to="/pesquisa" className="fontColor">Pesquisas</Link></li>
+                    <li><Link to="/estrutura" className="fontColor">Ações</Link></li>
+                    <li><Link to="/contato" className="fontColor">Contato</Link></li>
                 </ul>
-                </div>
+              
+                  </div>
+                
             </nav>
         </>
     )
 }
 
 export default Menu;
+
+//<Link to="/" className="brand-logo fontColor">Logo</Link>

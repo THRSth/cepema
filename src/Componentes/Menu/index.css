@@ -1,0 +1,19 @@
+.menuNav {
+    background-color: #ffffff;
+}
+.fontColor {
+    color: black;
+}
+.navUl {
+    padding-right: 500px;
+}
+.containerLogo {
+    margin-left: 20px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.containerLogoFim {
+    margin-right: 20px;
+    max-width: 150px;
+    max-height: 150px;
+}
