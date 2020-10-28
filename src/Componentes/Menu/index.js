@@ -7,8 +7,8 @@ const Menu = () => {
         <>
           <nav className='menuNav'>
                 <div className="nav-wrapper">
-                <Link to="/" className="brand-logo fontColor"><img className='containerLogo' src={require('../../assets/img/sony_logo_PNG7.png')}/></Link>
-                  <Link href="#" class="brand-logo right"><img className='containerLogoFim' src={require('../../assets/img/sony_logo_PNG7.png')}/></Link>
+                <Link to="/" className="brand-logo fontColor"><img className='containerLogo' src={require('../../assets/Logo/Imagem1.png')} alt='logo'/></Link>
+                  <Link href="#" class="brand-logo right"><img className='containerLogoFim' src={require('../../assets/Logo/logo_POLI-USP.png')} alt='logo'/></Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down navUl">
                     <li><Link to="/" className="fontColor">Inicio</Link></li>
                     <li><Link to="/pesquisa" className="fontColor">Equipe</Link></li>
