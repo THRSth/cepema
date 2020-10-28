@@ -14,12 +14,8 @@ const Main = () => {
             
 
         <div className="containerMenu">
-            <br/>
-            <a className="negrito">Centro de Pesquisa em Meio Ambiente (CEPEMA)</a> 
-            <p>da Universidade de São Paulo (USP). 
-            Localizado junto à Serra do Mar, o empreendimento foi construído num espaço de 20 mil m² em Cubatão, São Paulo.
-            A construção do órgão é resultado de uma compensação sócio-ambiental negociada num Termo de Compromisso e Ajustamento de Conduta Ambiental (TCAC) entre a Petrobras, a CETESB e o Ministério Público, assinado no dia 4 de março de 2004.
-            Com investimentos de R$ 12 milhões da Petrobras, o CEPEMA tem como objetivo consolidar, aplicar e difundir os conhecimentos existentes nas universidades, centro de pesquisas e do setor industrial no tratamento de questões relacionadas ao meio ambiente. O público-alvo é formado por professores, estudantes, pesquisadores, ONGs, agências ambientais, indústrias e a comunidade de maneira geral.
+            <p>
+            O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da Universidade de São Paulo, dedica-se desde 2006 à pesquisa e educação ambiental.  A missão principal é o desenvolvimento de pesquisa dedicada à solução de problemas ambientais em um ambiente multidisciplinar, em harmonia com os setores público e privado da sociedade. Voltado à pesquisa aplicada e orientado a projetos, o CEPEMA constitui-se em um ambiente fértil para conjugação de esforços de pesquisa interdisciplinar. Os projetos do CEPEMA buscam o desenvolvimento de estratégias para minimização de impactos ambientais, racionalização do uso de energia, otimização e monitoramento on-line de processos, com implicações quanto à conservação e uso sustentável de recursos naturais. Em parceria com a comunidade o centro oferece serviços como palestras, cursos de extensão e atividades de educação ambiental. Os prédios e instalações, localizados em Cubatão (SP), foram construídos pela Petrobrás como compensação ambiental à cidade. O espaço, de 4,5 mil metros quadrados, conta com seis laboratórios com equipamentos de última geração, viveiro, centro de triagem de animais, salas de aula, biblioteca, além de um auditório com capacidade para 120 pessoas. As áreas de atuação do CEPEMA envolvem pesquisas relacionadas com água, ar, solo, biodiversidade, química verde, saúde, gestão ambiental e educação ambiental.
             </p>
             <CardHorizontal descricao=' Localizado junto à Serra do Mar, o empreendimento foi construído num espaço de 20 mil m² em Cubatão, São Paulo.
             A construção do órgão é' title='Laboratorio' img={require('../../assets/img/estrutura-tecnica-de-um-laboratorio-de-analises-clinicas.jpg')}/>
@@ -28,18 +24,9 @@ const Main = () => {
            
             <p>No CEPEMA são desenvolvidas pesquisas de pós-graduação e extensão nas áreas ambiental, com foco em desenvolvimento de novas tecnologias e sustentabilidade.</p>
 
-            <CardVertical descricao='teste teste' title='laura' img={require('../../assets/img/funcionarios/laura.jpeg')}/>
-            <CardVertical descricao='teste teste' title='Gabi' img={require('../../assets/img/funcionarios/gabi.jpeg')}/>
-            <CardVertical descricao='teste teste' title='Ana' img={require('../../assets/img/funcionarios/ana.jpeg')}/>
-            <br/>
-            <br/>
-
-            
-            <p>
-            Projetado pelo arquiteto Carlos Brakte, o complexo tem 4 mil m² de área construída, fica instalado ao sul da Refinaria Presidente Bernardes-Cubatão, na rodovia Cônego Domenico Rangoni (ex-Piaçagüera-Guarujá), em meio a uma área de 20 mil m².
-            O CEPEMA tem seis laboratórios, seis salas de aula, auditório, salas de apoio, centros de documentação, almoxarifado e duas suítes para apoio a pesquisadores.
-            Os laboratórios são equipados com a infra-estrutura necessária, como bancada, sistema de purificação de água, linhas para gases (nitrogênio, hélio, oxigênio e ar sintético), sistema de vácuo, ar comprimido e chuveiros de emergência.
-            </p>
+            <CardVertical descricao='teste teste' title='Equipe' img={require('../../assets/img/5f840d2877a2804ef2d5f496_12184091_974650985931878_328421069915353778_o.jpg')}/>
+            <CardVertical descricao='teste teste' title='Pesquisas' img={require('../../assets/img/5f840d2871a3e43b690264b2_12087782_964117646985212_870508845211879943_o.jpg')}/>
+            <CardVertical descricao='teste teste' title='Ações' img={require('../../assets/img/5f840d29d32656789d0b3320_BJB_arburb_not.jpg')}/>
         </div>
         </>
     );

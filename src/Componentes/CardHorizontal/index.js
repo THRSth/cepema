@@ -10,7 +10,7 @@ const CardHorizontal = (props) => {
                 </div>
 
                 <div className='card-content conatinerTextHorizontal'>
-                    <div class="cardTitle ">
+                    <div class="cardTitleHorizontal ">
                         {props.title}
                     </div>
                    
