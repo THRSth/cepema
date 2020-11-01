@@ -1,0 +1,27 @@
+.slider-background__container {
+  background-position: center center;
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-background__conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-background__button__pass {
+  background: none;
+  border: none;
+  min-height: 100%;
+  color: #fff;
+  font-size: 2.5em;
+  width: 100%;
+  max-width: 60px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.slider-background__button__pass:hover,
+.slider-background__button__pass:focus {
+  background: rgba(187, 187, 187, 0.5);
+}
