@@ -8,11 +8,7 @@ import "./index.css";
 const Main = () => {
   return (
     <>
-      {/* <SliderBackground fotos={[foto, foto1]}>
-        <h1 className="titulo-main">CEPEMA POLI-USP</h1>
-      </SliderBackground> */}
-
-      <div className="containerMenu">
+      <div className="container-conteudo-page">
         <p>
           O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da
           Universidade de São Paulo, dedica-se desde 2006 à pesquisa e educação
@@ -43,8 +39,6 @@ const Main = () => {
           title="Laboratorio"
           img={require("../../assets/img/estrutura-tecnica-de-um-laboratorio-de-analises-clinicas.jpg")}
         />
-        <br />
-        <br />
 
         <p>
           No CEPEMA são desenvolvidas pesquisas de pós-graduação e extensão nas
@@ -52,21 +46,23 @@ const Main = () => {
           sustentabilidade.
         </p>
 
-        <CardVertical
-          descricao="teste teste"
-          title="Equipe"
-          img={require("../../assets/img/5f840d2877a2804ef2d5f496_12184091_974650985931878_328421069915353778_o.jpg")}
-        />
-        <CardVertical
-          descricao="teste teste"
-          title="Pesquisas"
-          img={require("../../assets/img/5f840d2871a3e43b690264b2_12087782_964117646985212_870508845211879943_o.jpg")}
-        />
-        <CardVertical
-          descricao="teste teste"
-          title="Ações"
-          img={require("../../assets/img/5f840d29d32656789d0b3320_BJB_arburb_not.jpg")}
-        />
+        <div className="cards-paginas">
+          <CardVertical
+            descricao="teste teste"
+            title="Equipe"
+            img={require("../../assets/img/5f840d2877a2804ef2d5f496_12184091_974650985931878_328421069915353778_o.jpg")}
+          />
+          <CardVertical
+            descricao="teste teste"
+            title="Pesquisas"
+            img={require("../../assets/img/5f840d2871a3e43b690264b2_12087782_964117646985212_870508845211879943_o.jpg")}
+          />
+          <CardVertical
+            descricao="teste teste"
+            title="Ações"
+            img={require("../../assets/img/5f840d29d32656789d0b3320_BJB_arburb_not.jpg")}
+          />
+        </div>
       </div>
     </>
   );

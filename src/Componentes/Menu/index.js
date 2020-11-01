@@ -9,7 +9,7 @@ const Menu = () => {
     <>
       <nav className="menuNav">
         <div className="nav-wrapper">
-          <Link to="/" className="brand-logo fontColor">
+          <Link to="/" className="brand-logo">
             <img
               className="containerLogo"
               src={require("../../assets/Logo/Imagem1.png")}
@@ -28,7 +28,7 @@ const Menu = () => {
               .filter((route) => route.name)
               .map(({ name, path }, index) => (
                 <li key={index}>
-                  <Link to={path} className="fontColor">
+                  <Link to={path} className="textoItemMenu">
                     {name}
                   </Link>
                 </li>

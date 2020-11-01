@@ -10,7 +10,7 @@ const CardVertical = (props) => {
             <img className="imgContainer" src={props.img} alt="" />
           </div>
 
-          <div class=" cardTitle">{props.title}</div>
+          <div className=" cardTitle">{props.title}</div>
 
           <div className="card-content contaiinerCard">
             <p>{props.descricao}</p>

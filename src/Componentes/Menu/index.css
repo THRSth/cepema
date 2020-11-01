@@ -1,21 +1,26 @@
 .menuNav {
-    background-color: #ffffff;
+  background-color: #ffffff;
+}
+.textoItemMenu {
+  color: #333;
+  font-family: NunitoSansSemiBold;
+  font-size: 1.2em;
 }
 .fontColor {
-    color: black;
+  color: black;
 }
 .navUl {
-    padding-right: 500px;
+  padding-right: 500px;
 }
 .containerLogo {
-    margin-top: 5px;
-    margin-left: 30px;
-    max-width: 150px;
-    max-height: 150px;
+  margin-top: 5px;
+  margin-left: 30px;
+  max-width: 150px;
+  max-height: 150px;
 }
 .containerLogoFim {
-    margin-top: 10px;
-    margin-right: 20px;
-    max-width: 200px;
-    max-height: 200px;
+  margin-top: 10px;
+  margin-right: 20px;
+  max-width: 200px;
+  max-height: 200px;
 }

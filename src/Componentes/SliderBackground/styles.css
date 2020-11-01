@@ -1,18 +1,29 @@
 .slider-background__container {
   background-position: center center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 350px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+.slider-background__container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #333;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
 }
 .slider-background__conteudo {
   display: flex;
   align-items: flex-end;
   max-width: 900px;
   flex: 1;
+  z-index: 5;
 }
 .slider-background__conteudo > h1 {
-  font-size: 4.209em;
+  font-size: 4em;
   font-family: NunitoSansSemiBold;
   color: #fff;
 }
@@ -26,6 +37,7 @@
   max-width: 60px;
   cursor: pointer;
   transition: background 0.5s;
+  z-index: 5;
 }
 .slider-background__button__pass:hover,
 .slider-background__button__pass:focus {

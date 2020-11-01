@@ -1,0 +1,38 @@
+@font-face {
+  font-family: NunitoSans;
+  src: url("./assets/fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+  font-family: NunitoSansSemiBold;
+  src: url("./assets/fonts/NunitoSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Lato;
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: LatoLight;
+  src: url("./assets/fonts/Lato-Light.ttf");
+}
+@font-face {
+  font-family: LatoBold;
+  src: url("./assets/fonts/Lato-Black.ttf");
+}
+
+p {
+  font-family: Lato;
+  font-size: 1em;
+}
+
+.container-conteudo-page {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-conteudo-page > * {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
