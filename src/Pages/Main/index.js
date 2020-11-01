@@ -1,6 +1,6 @@
 import React from "react";
-import CardVertical from '../../Componentes/CardVertical';
-import CardHorizontal from '../../Componentes/CardHorizontal';
+import CardVertical from '../../Componentes/Cards/CardVertical';
+import CardHorizontal from '../../Componentes/Cards/CardHorizontal';
 import "./index.css"
 
 const Main = () => {
