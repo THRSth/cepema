@@ -1,14 +1,16 @@
 import React from "react";
 import SliderBackground from "../Componentes/SliderBackground";
 
-export const makePage = (Page, photos) =>
-  !photos ? pageDefault(Page) : pageWithSlider(Page, photos);
+export const makePage = (Page, ...args) => {
+  const [slide] = args;
+  return !slide ? pageDefault(Page) : pageWithSlider(Page, slide);
+};
 
 const pageDefault = (Page) => <Page />;
 
-const pageWithSlider = (Page, photos) => (
+const pageWithSlider = (Page, slide) => (
   <>
-    <SliderBackground fotos={photos} />
+    <SliderBackground fotos={slide.photos}>{slide.text}</SliderBackground>
     <Page />
   </>
 );

@@ -29,7 +29,9 @@ function SliderBackground({ children, fotos }) {
       >
         <FiChevronLeft />
       </button>
-      <div className="slider-background__conteudo">{children}</div>
+      <div className="slider-background__conteudo">
+        <h1>{children}</h1>
+      </div>
       <button
         className="slider-background__button__pass"
         onClick={() => changePhoto("next")}

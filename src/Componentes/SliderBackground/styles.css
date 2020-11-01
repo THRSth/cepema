@@ -7,8 +7,14 @@
 }
 .slider-background__conteudo {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  max-width: 900px;
+  flex: 1;
+}
+.slider-background__conteudo > h1 {
+  font-size: 4.209em;
+  font-family: NunitoSansSemiBold;
+  color: #fff;
 }
 .slider-background__button__pass {
   background: none;

@@ -11,7 +11,11 @@ import foto from "../assets/img/cap1.jpg";
 import foto1 from "../assets/img/cap2.jpg";
 
 export const routes = [
-  { path: "/", photos: [foto1, foto], component: Main },
+  {
+    path: "/",
+    slide: { photos: [foto1, foto], text: "Texto de exemplo" },
+    component: Main,
+  },
   { path: "/pesquisa", component: Pesquisa },
   { path: "/estrutura", component: Estrutura },
   { path: "/cap", component: Cap },
