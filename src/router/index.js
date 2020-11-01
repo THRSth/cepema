@@ -11,8 +11,13 @@ const Routes = () => (
   <BrowserRouter>
     <Menu />
     <Switch>
-      {routes.map(({ path, component, slide }) => (
-        <Route exact path={path} component={() => makePage(component, slide)} />
+      {routes.map(({ path, component, slide }, index) => (
+        <Route
+          exact
+          path={path}
+          component={() => makePage(component, slide)}
+          key={index}
+        />
       ))}
     </Switch>
     <Footer />
