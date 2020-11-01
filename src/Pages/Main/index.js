@@ -4,16 +4,14 @@ import CardVertical from "../../Componentes/CardVertical";
 import CardHorizontal from "../../Componentes/CardHorizontal";
 import SliderBackground from "../../Componentes/SliderBackground";
 
-import foto from "../../assets/img/cap1.jpg";
-import foto1 from "../../assets/img/cap2.jpg";
 import "./index.css";
 
 const Main = () => {
   return (
     <>
-      <SliderBackground fotos={[foto, foto1]}>
+      {/* <SliderBackground fotos={[foto, foto1]}>
         <h1 className="titulo-main">CEPEMA POLI-USP</h1>
-      </SliderBackground>
+      </SliderBackground> */}
 
       <div className="containerMenu">
         <p>
