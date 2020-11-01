@@ -1,7 +1,6 @@
 import React from "react";
 import './index.css';
 
-
 const CardText = (props) => {
 
     return (
@@ -21,7 +20,7 @@ const CardText = (props) => {
                     <div className="card-content contaiinerCard">
                         <p>{props.descricao}</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

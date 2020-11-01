@@ -8,6 +8,7 @@ import Estrutura from "./Pages/Estrutura";
 import Cap from "./Pages/CAP";
 import Contato from "./Pages/Contato";
 import MapContainer from './Pages/Localizacao';
+import Footer from './Componentes/Footer'
 
 const  Routes = () => (
     <BrowserRouter>
@@ -20,6 +21,7 @@ const  Routes = () => (
         <Route exact path="/contato" component={Contato}/>
         <Route exact path="/localizacao" component={MapContainer}/>
     </Switch>
+    <Footer/>
     </BrowserRouter>
 );
 
