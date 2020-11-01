@@ -1,7 +1,6 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.css";
-import Routes from "./routes";
-
+import Routes from "./router";
 
 const App = () => <Routes />;
 
