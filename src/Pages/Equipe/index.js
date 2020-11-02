@@ -12,7 +12,7 @@ const Equipe  = () => {
                     Equipe
                 </div>
                 <div className='containerTextoEquipe'>
-                    bata tata tata tat gjfj  jdjfnuv  ehfiehf h iehif euf h ufhu fieifj  fidifh efh  fehf
+                Conheça nossa equipe que é composta por pessoas extremamente capacitadas, curiosas, dedicadas e com rico conhecimento sobre a área. 
                 </div>
                 <div className='containerCard'> 
                     <CardVertical 

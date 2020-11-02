@@ -37,12 +37,12 @@ const Main = () => {
         <CardVertical
           img={require("../../assets/img/5f840d2877a2804ef2d5f496_12184091_974650985931878_328421069915353778_o.jpg")}
           title="Equipe"
-          descricao="Conheça nossa equipe que é composta por pessoas extremamente capacitadas, curiosas, dedicadas e com rico conhecimento sobre a área. "
+          descricao="Conheça nossa equipe! Ela é composta por pessoas extremamente capacitadas e com vasto conhecimento sobre a área."
         />
         <CardVertical
           img={require("../../assets/img/5f840d2871a3e43b690264b2_12087782_964117646985212_870508845211879943_o.jpg")}
           title="Pesquisas"
-          descricao="Veja as nossas pesquisas. Por meio dessas desenvolvemos estratégias de minimização de impactos ambientais, racionalização do uso de energia, entre outras coisas."
+          descricao="Veja as nossas pesquisas! Desenvolvemos estratégias de minimização de impactos ambientais entre outras coisas."
         />
         <CardVertical
           img={require("../../assets/img/5f840d29d32656789d0b3320_BJB_arburb_not.jpg")}
