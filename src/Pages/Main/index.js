@@ -14,28 +14,10 @@ const Main = () => {
 
       <div className="containerMenu">
         <p>
-          O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da
-          Universidade de São Paulo, dedica-se desde 2006 à pesquisa e educação
-          ambiental.  A missão principal é o desenvolvimento de pesquisa
-          dedicada à solução de problemas ambientais em um ambiente
-          multidisciplinar, em harmonia com os setores público e privado da
-          sociedade. Voltado à pesquisa aplicada e orientado a projetos, o
-          CEPEMA constitui-se em um ambiente fértil para conjugação de esforços
-          de pesquisa interdisciplinar. Os projetos do CEPEMA buscam o
-          desenvolvimento de estratégias para minimização de impactos
-          ambientais, racionalização do uso de energia, otimização e
-          monitoramento on-line de processos, com implicações quanto à
-          conservação e uso sustentável de recursos naturais. Em parceria com a
-          comunidade o centro oferece serviços como palestras, cursos de
-          extensão e atividades de educação ambiental. Os prédios e instalações,
-          localizados em Cubatão (SP), foram construídos pela Petrobrás como
-          compensação ambiental à cidade. O espaço, de 4,5 mil metros quadrados,
-          conta com seis laboratórios com equipamentos de última geração,
-          viveiro, centro de triagem de animais, salas de aula, biblioteca, além
-          de um auditório com capacidade para 120 pessoas. As áreas de atuação
-          do CEPEMA envolvem pesquisas relacionadas com água, ar, solo,
-          biodiversidade, química verde, saúde, gestão ambiental e educação
-          ambiental.
+        O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da Universidade de São Paulo, dedica-se, desde 2006, ao desenvolvimento de diversas pesquisas voltadas à solução de problemas ambientais, em conjunto com os setores público e privado. Ademais de oferecer para a comunidade palestras, cursos e atividades que focam na educação ambiental. O centro atua em pesquisas relacionadas à água, ar, solo, biodiversidade, química verde, saúde e gestão ambiental.
+        <br/>
+        <br/>  
+        Os prédios e instalações, localizados em Cubatão (SP), foram construídos pela Petrobras como meio de compensação ambiental à cidade. Estes são compostos por 4,5 mil metros quadrados, contando com 6 laboratórios altamente equipados, viveiro, centro de triagem de animais, salas de aula, biblioteca, além de um auditório com capacidade para 120 pessoas.
         </p>
         <CardHorizontal
           descricao=" Localizado junto à Serra do Mar, o empreendimento foi construído num espaço de 20 mil m² em Cubatão, São Paulo.
@@ -53,19 +35,19 @@ const Main = () => {
         </p>
 
         <CardVertical
-          descricao="teste teste"
-          title="Equipe"
           img={require("../../assets/img/5f840d2877a2804ef2d5f496_12184091_974650985931878_328421069915353778_o.jpg")}
+          title="Equipe"
+          descricao="Conheça nossa equipe que é composta por pessoas extremamente capacitadas, curiosas, dedicadas e com rico conhecimento sobre a área. "
         />
         <CardVertical
-          descricao="teste teste"
-          title="Pesquisas"
           img={require("../../assets/img/5f840d2871a3e43b690264b2_12087782_964117646985212_870508845211879943_o.jpg")}
+          title="Pesquisas"
+          descricao="Veja as nossas pesquisas. Por meio dessas desenvolvemos estratégias de minimização de impactos ambientais, racionalização do uso de energia, entre outras coisas."
         />
         <CardVertical
-          descricao="teste teste"
-          title="Ações"
           img={require("../../assets/img/5f840d29d32656789d0b3320_BJB_arburb_not.jpg")}
+          title="Ações"
+          descricao="Conheça e participe das nossas ações realizadas em harmonia com a comunidade."
         />
       </div>
     </>
