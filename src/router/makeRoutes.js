@@ -1,5 +1,6 @@
 //paginas
 import Main from "../Pages/Main";
+import Equipe from '../Pages/Equipe';
 import Pesquisa from "../Pages/Pesquisa";
 import Estrutura from "../Pages/Estrutura";
 import Cap from "../Pages/CAP";
@@ -20,7 +21,7 @@ export const routes = [
   {
     path: "/pesquisa",
     name: "Equipe",
-    component: Pesquisa,
+    component: Equipe,
   },
   {
     path: "/pesquisa",
