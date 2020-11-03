@@ -15,8 +15,8 @@ const Main = () => {
       <div className="containerMenu">
         <p>
         O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da Universidade de São Paulo, dedica-se, desde 2006, ao desenvolvimento de diversas pesquisas voltadas à solução de problemas ambientais, em conjunto com os setores público e privado. Ademais de oferecer para a comunidade palestras, cursos e atividades que focam na educação ambiental. O centro atua em pesquisas relacionadas à água, ar, solo, biodiversidade, química verde, saúde e gestão ambiental.
-        <br/>
-        <br/>  
+        </p>
+        <p>
         Os prédios e instalações, localizados em Cubatão (SP), foram construídos pela Petrobras como meio de compensação ambiental à cidade. Estes são compostos por 4,5 mil metros quadrados, contando com 6 laboratórios altamente equipados, viveiro, centro de triagem de animais, salas de aula, biblioteca, além de um auditório com capacidade para 120 pessoas.
         </p>
         <CardHorizontal
@@ -25,9 +25,6 @@ const Main = () => {
           title="Laboratorio"
           img={require("../../assets/img/estrutura-tecnica-de-um-laboratorio-de-analises-clinicas.jpg")}
         />
-        <br />
-        <br />
-
         <p>
           No CEPEMA são desenvolvidas pesquisas de pós-graduação e extensão nas
           áreas ambiental, com foco em desenvolvimento de novas tecnologias e
