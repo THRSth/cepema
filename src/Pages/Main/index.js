@@ -2,6 +2,7 @@ import React from "react";
 
 import CardVertical from "../../Componentes/Cards/CardVertical";
 import CardHorizontal from "../../Componentes/Cards/CardHorizontal";
+import Galeria from "../../Componentes/Galeria";
 
 import "./index.css";
 
@@ -9,36 +10,39 @@ const Main = () => {
   return (
     <>
       <div className="container-conteudo-page">
-        <p>
-          O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da
-          Universidade de São Paulo, dedica-se, desde 2006, ao desenvolvimento
-          de diversas pesquisas voltadas à solução de problemas ambientais, em
-          conjunto com os setores público e privado. Ademais de oferecer para a
-          comunidade palestras, cursos e atividades que focam na educação
-          ambiental. O centro atua em pesquisas relacionadas à água, ar, solo,
-          biodiversidade, química verde, saúde e gestão ambiental.
-        </p>
-        <p>
-          Os prédios e instalações, localizados em Cubatão (SP), foram
-          construídos pela Petrobras como meio de compensação ambiental à
-          cidade. Estes são compostos por 4,5 mil metros quadrados, contando com
-          6 laboratórios altamente equipados, viveiro, centro de triagem de
-          animais, salas de aula, biblioteca, além de um auditório com
-          capacidade para 120 pessoas.
-        </p>
-        <CardHorizontal
-          descricao=" Localizado junto à Serra do Mar, o empreendimento foi construído num espaço de 20 mil m² em Cubatão, São Paulo.
+        <section>
+          <p>
+            O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da
+            Universidade de São Paulo, dedica-se, desde 2006, ao desenvolvimento
+            de diversas pesquisas voltadas à solução de problemas ambientais, em
+            conjunto com os setores público e privado. Ademais de oferecer para
+            a comunidade palestras, cursos e atividades que focam na educação
+            ambiental. O centro atua em pesquisas relacionadas à água, ar, solo,
+            biodiversidade, química verde, saúde e gestão ambiental.
+          </p>
+          <p>
+            Os prédios e instalações, localizados em Cubatão (SP), foram
+            construídos pela Petrobras como meio de compensação ambiental à
+            cidade. Estes são compostos por 4,5 mil metros quadrados, contando
+            com 6 laboratórios altamente equipados, viveiro, centro de triagem
+            de animais, salas de aula, biblioteca, além de um auditório com
+            capacidade para 120 pessoas.
+          </p>
+        </section>
+        <section>
+          <CardHorizontal
+            descricao=" Localizado junto à Serra do Mar, o empreendimento foi construído num espaço de 20 mil m² em Cubatão, São Paulo.
             A construção do órgão é"
-          title="Laboratorio"
-          img={require("../../assets/img/estrutura-tecnica-de-um-laboratorio-de-analises-clinicas.jpg")}
-        />
-        <p>
-          No CEPEMA são desenvolvidas pesquisas de pós-graduação e extensão nas
-          áreas ambiental, com foco em desenvolvimento de novas tecnologias e
-          sustentabilidade.
-        </p>
-
-        <div className="cards-paginas">
+            title="Laboratorio"
+            img={require("../../assets/img/estrutura-tecnica-de-um-laboratorio-de-analises-clinicas.jpg")}
+          />
+          <p>
+            No CEPEMA são desenvolvidas pesquisas de pós-graduação e extensão
+            nas áreas ambiental, com foco em desenvolvimento de novas
+            tecnologias e sustentabilidade.
+          </p>
+        </section>
+        <section className="cards-paginas">
           <CardVertical
             descricao="teste teste"
             title="Equipe"
@@ -54,7 +58,11 @@ const Main = () => {
             title="Ações"
             img={require("../../assets/img/5f840d29d32656789d0b3320_BJB_arburb_not.jpg")}
           />
-        </div>
+        </section>
+        <section>
+          <h3>Galeria</h3>
+          <Galeria />
+        </section>
       </div>
     </>
   );
