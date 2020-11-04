@@ -1,3 +1,28 @@
-footer.containerFooter {
+.containerFooter {
   background-color: #45a543;
+}
+
+.containerFooterInformacao {
+  display: flex;
+  flex-direction: row;
+}
+
+.listasFooter {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.ulAcessoFooter {
+  width: 100px;
+}
+
+.ulContatoFooter {
+  margin-left: 50px;
+  width: 500px;
+}
+
+.imgFooter {
+  max-width: 250px;
+  max-height: 250px;
 }

@@ -7,29 +7,34 @@ import Contato from "../Pages/Contato";
 import MapContainer from "../Pages/Localizacao";
 
 //fotos
-import foto from "../assets/img/cap1.jpg";
-import foto1 from "../assets/img/cap2.jpg";
+import slideAcoes from "../assets/img/slide/acoes";
+import slideHome from "../assets/img/slide/home";
+import slideEquipe from "../assets/img/slide/equipe";
+import slidePesquisas from "../assets/img/slide/pesquisas";
 
 export const routes = [
   {
     path: "/",
     name: "Inicio",
-    slide: { photos: [foto1, foto], text: "Texto de exemplo" },
+    slide: slideHome,
     component: Main,
   },
   {
-    path: "/pesquisa",
+    path: "/equipe",
     name: "Equipe",
+    slide: slideEquipe,
     component: Pesquisa,
   },
   {
     path: "/pesquisa",
     name: "Pesquisas",
+    slide: slidePesquisas,
     component: Pesquisa,
   },
   {
     path: "/estrutura",
     name: "Ações",
+    slide: slideAcoes,
     component: Estrutura,
   },
   {
