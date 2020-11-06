@@ -1,0 +1,10 @@
+.carousel-container {
+  height: 600px !important;
+}
+.carousel-container > div.carousel-item {
+}
+.carousel-container img {
+  display: block;
+  height: 100%;
+  width: auto;
+}

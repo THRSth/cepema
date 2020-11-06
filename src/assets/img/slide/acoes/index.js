@@ -8,5 +8,4 @@ import acao7 from "./acoes-7.jpg";
 
 export default {
   photos: [acao1, acao2, acao3, acao4, acao5, acao6, acao7],
-  text: "Texto de exemplo",
 };
