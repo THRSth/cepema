@@ -3,5 +3,4 @@ import equipe2 from "./equipe-2.JPG";
 
 export default {
   photos: [equipe1, equipe2],
-  text: "Texto de exemplo",
 };
