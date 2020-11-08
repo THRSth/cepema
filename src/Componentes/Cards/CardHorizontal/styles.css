@@ -1,0 +1,19 @@
+.containerCardHorizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 960px;
+  max-height: 300px;
+}
+.containerFotoHrizontal {
+  max-width: 560px;
+  max-height: 300px;
+}
+.conatinerTextHorizontal {
+  max-width: 500px;
+  max-height: 400px;
+}
+
+.cardTitleHorizontal {
+  font-size: 3em;
+}

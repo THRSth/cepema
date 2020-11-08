@@ -13,10 +13,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.imgContainer {
-  max-width: 300px;
-  max-height: 300px;
-}
 
 .cardTitleText {
   height: 30px;

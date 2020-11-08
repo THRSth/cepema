@@ -1,19 +1,19 @@
 import React from "react";
-import "./index.css";
+import "./styles.css";
 
-const CardVertical = (props) => {
+const CardVertical = ({ img, descricao, title }) => {
   return (
     <div className=" contaiinerCard">
-      <div className="col s12 m7 contaiinerCard">
-        <div className="card contaiinerCard">
-          <div className="card-image contaiinerCard">
-            <img className="imgContainer" src={props.img} alt="" />
+      <div className="col s12 m7 container__card_panel">
+        <div className="card container__card_panel">
+          <div className="card-image">
+            <img className="imgContainer" src={img} alt="" />
           </div>
 
-          <div className=" cardTitle">{props.title}</div>
+          <div className=" cardTitle card_title_texto">{title}</div>
 
-          <div className="card-content contaiinerCard">
-            <p>{props.descricao}</p>
+          <div className="card-content card__content__text">
+            <p>{descricao}</p>
           </div>
         </div>
       </div>

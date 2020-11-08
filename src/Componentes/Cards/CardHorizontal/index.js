@@ -1,18 +1,18 @@
 import React from "react";
-import "./index.css";
+import "./styles.css";
 
-const CardHorizontal = (props) => {
+const CardHorizontal = ({ img, title, descricao }) => {
   return (
     <div className=" card containerCardHorizontal ">
       <div>
-        <img className="containerFotoHrizontal" src={props.img} alt="" />
+        <img className="containerFotoHrizontal" src={img} alt="" />
       </div>
 
       <div className="card-content conatinerTextHorizontal">
-        <div className="cardTitleHorizontal ">{props.title}</div>
+        <div className="cardTitleHorizontal ">{title}</div>
 
         <div className="card-content">
-          <p>{props.descricao}</p>
+          <p>{descricao}</p>
         </div>
       </div>
     </div>

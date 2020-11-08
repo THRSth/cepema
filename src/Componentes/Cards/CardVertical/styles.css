@@ -1,0 +1,25 @@
+.contaiinerCard {
+  margin: 10px auto;
+  max-width: 300px;
+}
+
+img.imgContainer {
+  display: block;
+  height: 100%;
+  max-height: 300px;
+  width: auto;
+}
+.card_title_texto {
+  margin-top: 15px;
+}
+
+.cardTitle {
+  height: 30px;
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.container__card_panel {
+  height: 100%;
+  max-height: 400px;
+}
