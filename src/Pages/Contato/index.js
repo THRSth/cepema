@@ -32,7 +32,10 @@ const Contato = () => {
   };
 
   const montarStringEmail = () => {
-    return `mailto:${state.email}&body=${state.mensagem}`;
+    const email = 'gusthavo.silvasouza@gmail.com';
+    const assunto = 'Entrando em contato com o CEPEMA'
+    const Body = `Nome: ${state.nome}%0D${state.telefone? `Telefone: ${state.telefone}%0D`: ''}Email: ${state.email}%0DMensagem: ${state.mensagem}`
+    return `mailto:${email}?Subject=${assunto}&Body=${Body}`;
   };
 
   const handleSubmit = (e) => {
