@@ -10,7 +10,6 @@ const Main = () => {
   return (
     <>
       <div className="container-conteudo-page">
-        <h1 className="containerTitleEquipe">Equipe</h1>
         <section>
           <p>
             O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da

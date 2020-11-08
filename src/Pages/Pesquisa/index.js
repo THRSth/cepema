@@ -1,6 +1,6 @@
 import React from "react";
 import CardText from "../../Componentes/Cards/CardText";
-import Pesquisas from "../../Jsons/Pesquisas.js";
+import Pesquisas from "../../JSON/Pesquisas.js";
 
 import "./index.css";
 

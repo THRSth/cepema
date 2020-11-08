@@ -64,31 +64,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col l4 offset-l2 s12">
-            <h5 className="white-text">Acesso Rapido</h5>
-            <ul>
-              <li>
-                <a className="grey-text text-lighten-3" href="#!">
-                  Equipe
-                </a>
-              </li>
-              <li>
-                <a className="grey-text text-lighten-3" href="#!">
-                  Pesquisas
-                </a>
-              </li>
-              <li>
-                <a className="grey-text text-lighten-3" href="#!">
-                  Ações
-                </a>
-              </li>
-              <li>
-                <a className="grey-text text-lighten-3" href="#!">
-                  Contato
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
         <div className="footer-copyright">
           <div className="container">CEPEMA © {new Date().getFullYear()}</div>

@@ -1,16 +1,19 @@
 .menuNav {
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.menuLogo {
+  display: block;
 }
 .textoItemMenu {
   color: #333;
   font-family: NunitoSansSemiBold;
   font-size: 1.2em;
 }
-.fontColor {
-  color: black;
-}
+
 .navUl {
-  padding-right: 500px;
+  margin: 0 auto;
 }
 .containerLogo {
   margin-top: 5px;
