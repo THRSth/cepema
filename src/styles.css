@@ -19,6 +19,11 @@
   src: url("./assets/fonts/Lato-Black.ttf");
 }
 
+h1,
+h2,
+h3 {
+  font-family: NunitoSansSemiBold;
+}
 p {
   font-family: Lato;
   font-size: 1em;
@@ -37,4 +42,10 @@ p {
 .container-conteudo-page > * {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 970px) {
+  .container-conteudo-page {
+    max-width: 80vw;
+  }
 }

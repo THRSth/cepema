@@ -7,8 +7,7 @@ import "./index.css";
 const Pesquisa = () => {
   return (
     <>
-      <div className="containerPesquisa">
-        <div className="containerPesquisasTitle">Pesquisas</div>
+      <div className="container-conteudo-page">
         <div>
           Veja as nossas pesquisas. Por meio dessas desenvolvemos estratégias de
           minimização de impactos ambientais, racionalização do uso de energia,
@@ -16,16 +15,13 @@ const Pesquisa = () => {
         </div>
 
         <div className="containerPesquisaMap">
-          {Pesquisas.map(function (e) {
-            return (
-              <CardText
-                title={e.nomePesquisa}
-                img={e.img}
-                autor={e.autor}
-                descricao={e.description}
-              />
-            );
-          })}
+          {Pesquisas.map((pesquisa) => (
+            <CardText
+              img={pesquisa.img}
+              autor={pesquisa.autor}
+              descricao={pesquisa.description}
+            />
+          ))}
         </div>
       </div>
     </>

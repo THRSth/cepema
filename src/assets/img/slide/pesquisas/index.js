@@ -7,4 +7,5 @@ import pesquisa6 from "./pesquisa-6.jpg";
 
 export default {
   photos: [pesquisa1, pesquisa2, pesquisa3, pesquisa4, pesquisa5, pesquisa6],
+  text: "Pesquisas",
 };

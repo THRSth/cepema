@@ -5,5 +5,5 @@ import home4 from "./home-4.JPG";
 
 export default {
   photos: [home1, home2, home3, home4],
-  text: "Centro de Pesquisa em Meio Ambiente ",
+  text: "CEPEMA",
 };
