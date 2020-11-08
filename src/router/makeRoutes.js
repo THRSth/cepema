@@ -2,7 +2,7 @@
 import Main from "../Pages/Main";
 import Equipe from "../Pages/Equipe";
 import Pesquisa from "../Pages/Pesquisa";
-import Estrutura from "../Pages/Estrutura";
+import Acoes from "../Pages/Acoes";
 import Cap from "../Pages/CAP";
 import Contato from "../Pages/Contato";
 import MapContainer from "../Pages/Localizacao";
@@ -33,10 +33,10 @@ export const routes = [
     component: Pesquisa,
   },
   {
-    path: "/estrutura",
+    path: "/acoes",
     name: "Ações",
     slide: slideAcoes,
-    component: Estrutura,
+    component: Acoes,
   },
   {
     path: "/cap",
