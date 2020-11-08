@@ -1,6 +1,10 @@
 .containerPesquisaMap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 960px) {
+  .containerPesquisaMap {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

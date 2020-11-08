@@ -4,7 +4,7 @@ import "./styles.css";
 const CardText = (props) => {
   return (
     <div className=" contaiinerCardText">
-      <div className="col s12 m7 card_content_container">
+      <div className="col s12 card_content_container">
         <div className="card card_content_container">
           <div className="autorContainer">
             <img src={props.img} alt="" className="imgCircleContainer circle" />
