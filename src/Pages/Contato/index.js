@@ -1,41 +1,103 @@
-import React from "react";
+import React, { useReducer } from "react";
 import "./index.css";
 
+const inicialState = {
+  nome: "",
+  email: "",
+  telefone: "",
+  mensagem: "",
+};
+const reducer = (state, action) => {
+  const { type, payload } = action;
+  return { ...state, [type]: payload.value };
+};
+
 const Contato = () => {
-    return (
-       <>
-       <div className="containerContato">
-           <form className="col s12">
-            <div className="input-field col s6">
-                <input id="name"  className="validate" type="text" name="name" />
-            <label htmlFor="first_name">Nome:</label>
-            </div>
+  const [state, dispatch] = useReducer(reducer, inicialState);
 
-            <div className="input-field col s6">
-                <input id="name"  className="validate" type="text" name="name" />
-            <label htmlFor="first_name">E-mail:</label>
-            </div>
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    dispatch({ type: name, payload: { value } });
+  };
 
-            <div className="input-field col s6">
-                <input id="name"  className="validate" type="text" name="name" />
-            <label htmlFor="first_name">Tel fixo:</label>
-            </div>
+  const validarCampos = () => {
+    let valido = true;
+    Object.keys(state).forEach((prop) => {
+      if (!state[prop] && prop != "telefone") {
+        alert(`O campo ${prop} deve ser preenchido.`);
+        valido = false;
+      }
+    });
+    return valido;
+  };
 
-            <div className="input-field col s6">
-                <input id="name"  className="validate" type="text" name="name" />
-            <label htmlFor="first_name">Tel cel:</label>
-            </div>
-            
-            <div className="input-field col s12">
-          <textarea id="textarea1" className="materialize-textarea"></textarea>
-          <label htmlFor="textarea1">Mensagem</label>
-        </div>
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validarCampos()) console.log(state);
+  };
 
-                <button className="btn waves-effect waves-light btnContato" type="submit" name="action">Enviar</button>
-            </form>
-       </div>
-       </>
-    );
-}
+  return (
+    <>
+      <div className="container-conteudo-page">
+        <form className="container" onSubmit={handleSubmit}>
+          <div className="input-field col s6">
+            <input
+              id="nome"
+              className="validate"
+              type="text"
+              name="nome"
+              value={state.name}
+              onChange={handleChange}
+            />
+            <label htmlFor="nome">Nome:</label>
+          </div>
+
+          <div className="input-field col s6">
+            <input
+              id="email"
+              className="validate"
+              type="text"
+              name="email"
+              value={state.email}
+              onChange={handleChange}
+            />
+            <label htmlFor="email">E-mail:</label>
+          </div>
+
+          <div className="input-field col s6">
+            <input
+              id="telefone"
+              className="validate"
+              type="text"
+              name="telefone"
+              value={state.telefone}
+              onChange={handleChange}
+            />
+            <label htmlFor="telefone">Telefone: </label>
+          </div>
+
+          <div className="input-field col s12">
+            <textarea
+              id="mensagem"
+              className="materialize-textarea"
+              name="mensagem"
+              value={state.mensagem}
+              onChange={handleChange}
+            ></textarea>
+            <label htmlFor="mensagem">Mensagem</label>
+          </div>
+
+          <button
+            className="btn waves-effect waves-light btnContato"
+            type="submit"
+            name="action"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </>
+  );
+};
 
 export default Contato;
