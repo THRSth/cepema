@@ -31,9 +31,13 @@ const Contato = () => {
     return valido;
   };
 
+  const montarStringEmail = () => {
+    return `mailto:${state.email}&body=${state.mensagem}`;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (validarCampos()) console.log(state);
+    if (validarCampos()) window.location.href = montarStringEmail();
   };
 
   return (
