@@ -17,7 +17,7 @@ const Pesquisa = () => {
           {Acoes.map((acao) => (
             <CardText
               img={acao.img}
-              autor={acao.autor}
+              autor={acao.acao}
               descricao={acao.description}
             />
           ))}
