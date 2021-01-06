@@ -15,6 +15,7 @@ const reducer = (state, action) => {
 const Contato = () => {
   const [state, dispatch] = useReducer(reducer, inicialState);
 
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     dispatch({ type: name, payload: { value } });

@@ -1,5 +1,5 @@
 .menuNav {
-  background-color: #ffffff;
+  background-color: #0d2340;
   display: flex;
   justify-content: space-between;
 }
@@ -7,7 +7,7 @@
   display: block;
 }
 .textoItemMenu {
-  color: #333;
+  color: #FFFFFF;
   font-family: NunitoSansSemiBold;
   font-size: 1.2em;
 }

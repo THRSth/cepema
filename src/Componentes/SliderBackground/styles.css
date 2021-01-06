@@ -1,7 +1,7 @@
 .slider-background__container {
   background-position: center center;
   background-size: cover;
-  min-height: 350px;
+  min-height: 500px;
   display: flex;
   justify-content: space-between;
   position: relative;

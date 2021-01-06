@@ -1,6 +1,7 @@
 .contaiinerCard {
   margin: 10px auto;
   max-width: 300px;
+  width: 300px;
 }
 
 img.imgContainer {
@@ -22,4 +23,25 @@ img.imgContainer {
 .container__card_panel {
   height: 100%;
   max-height: 400px;
+}
+
+.nomeSpan {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 1.6em;
+}
+
+.autorContainerFuncionario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 6px 0;
+}
+
+.imgCircleContainerFuncionario {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 0px;
 }

@@ -11,7 +11,7 @@ const Menu = () => {
         <Link to="/" className="menuLogo">
           <img
             className="containerLogo"
-            src={require("../../assets/Logo/Imagem1.png")}
+            src={require("../../assets/Logo/Imagem1.svg")}
             alt="Logo cepema - Ir para home"
           />
         </Link>
