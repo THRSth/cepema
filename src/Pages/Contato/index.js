@@ -24,7 +24,7 @@ const Contato = () => {
   const validarCampos = () => {
     let valido = true;
     Object.keys(state).forEach((prop) => {
-      if (!state[prop] && prop != "telefone") {
+      if (!state[prop] && prop !== "telefone") {
         alert(`O campo ${prop} deve ser preenchido.`);
         valido = false;
       }

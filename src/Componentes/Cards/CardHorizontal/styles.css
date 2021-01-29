@@ -17,3 +17,14 @@
 .cardTitleHorizontal {
   font-size: 3em;
 }
+
+.dempster {
+  padding-left: 25px;
+}
+
+.titleDempster {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+}

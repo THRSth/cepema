@@ -74,7 +74,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-//minerva-cinza-on6wb50sxjrg3l0qqoeh6k38hblzxpi7h767z0h7m8.png
-
-//require('../../assets/img/5f840d2877a2804ef2d5f496_12184091_974650985931878_328421069915353778_o.jpg')
