@@ -1,6 +1,8 @@
-.containerContato {
-    max-width: 500px;
+.container-conteudo-page > h1 {
     margin: 0 auto;
+    padding: 30px 0 30px 0;
+    color: #7a7a7a;
+    font-weight: bold;
 }
 
 .btnContato {

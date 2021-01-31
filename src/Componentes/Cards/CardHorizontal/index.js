@@ -15,7 +15,7 @@ const CardHorizontal = ({ img, title, descricao }) => {
           <p>{descricao}</p>
         </div>
         <div className='dempster'>
-          <a className='titleDempster'>Laboratorio:</a> <a href="https://sites.usp.br/dempsterlab/">DEMPSTER</a>
+          <a href className='titleDempster'>Laboratorio:</a> <a href="https://sites.usp.br/dempsterlab/">DEMPSTER</a>
         </div>
       </div>
     </div>

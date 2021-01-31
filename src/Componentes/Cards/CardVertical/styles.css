@@ -28,6 +28,7 @@ img.imgContainer {
 .nomeSpan {
   margin-left: 15px;
   margin-top: 15px;
+  padding-left: 10px;
   font-size: 1.6em;
 }
 
@@ -43,5 +44,6 @@ img.imgContainer {
   height: 100px;
   max-width: 100px;
   max-height: 100px;
-  margin-top: 0px;
+  margin-top: 5px;
+  margin-left: 20px;
 }

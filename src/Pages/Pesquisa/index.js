@@ -9,9 +9,9 @@ const Pesquisa = () => {
     <>
       <div className="container-conteudo-page">
         <div>
-          Veja as nossas pesquisas. Por meio dessas desenvolvemos estratégias de
-          minimização de impactos ambientais, racionalização do uso de energia,
-          entre outras coisas.
+        ⠀⠀⠀Veja as nossas pesquisas. Por meio dessas, são desenvolvidas estratégias 
+          de minimização de impactos ambientais, racionalização do uso de energia 
+          e muito mais.
         </div>
 
         <div className="containerPesquisaMap">

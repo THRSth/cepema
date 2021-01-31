@@ -12,27 +12,25 @@ const Main = () => {
       <div className="container-conteudo-page">
         <section>
           <p>
-            O Centro de Capacitação e Pesquisa em Meio Ambiente (CEPEMA), da 
-            <a href='https://www5.usp.br/'> Universidade de São Paulo</a>, dedica-se, desde 2006, ao desenvolvimento
-            de diversas pesquisas voltadas à solução de problemas ambientais, de estudantes de <a href='https://www5.usp.br/ensino/pos-graduacao/'> pós graduação </a> em
-            conjunto com os setores público e privado. Ademais de oferecer para
-            a comunidade palestras, cursos e atividades que focam na educação
-            ambiental. O centro atua em pesquisas relacionadas à água, ar, solo,
-            biodiversidade, química verde, saúde e gestão ambiental.
+          ⠀⠀⠀⠀⠀⠀⠀⠀O Centro de Capacitação e Pesquisa em Meio Ambiente - CEPEMA,  da 
+            <a href='https://www5.usp.br/'>  Universidade de São Paulo</a>, dedica-se, 
+            desde 2006, ao desenvolvimento de diversas pesquisas voltadas à solução de problemas
+            ambientais, de estudantes de <a href='https://www5.usp.br/ensino/pos-graduacao/'> pós graduação </a> 
+            em conjunto com os setores público e privado; isso além de oferecer para a comunidade palestras,
+            cursos e atividades focados  na educação ambiental. O centro atua em pesquisas relacionadas à água,
+            ar, solo, biodiversidade, química verde, saúde e gestão ambiental.
           </p>
           <p>
-            Os prédios e instalações, localizados em Cubatão (SP), foram
-            construídos pela Petrobras como meio de compensação ambiental à
-            cidade. Estes são compostos por 4,5 mil metros quadrados, contando
-            com 6 laboratórios altamente equipados, viveiro, centro de triagem
-            de animais, salas de aula, biblioteca, além de um auditório com
-            capacidade para 120 pessoas.
+          ⠀⠀⠀⠀⠀⠀⠀⠀Os prédios e instalações, localizados em Cubatão (SP), foram construídos pela Petrobrás
+            como meio de compensação ambiental à cidade. Esses são compostos por 4,5 mil metros quadrados, 
+            contando com 6 laboratórios altamente equipados, viveiro, centro de triagem de animais, salas de aula, 
+            biblioteca, além de um auditório com capacidade para 120 pessoas.
           </p>
         </section>
         <section>
           <CardHorizontal
             descricao={` Localizado junto à Serra do Mar, o empreendimento foi construído num espaço de 20 mil m² em Cubatão, São Paulo.`}
-            title="Laboratorio"
+            title="Laboratório"
             img={require("../../assets/img/estrutura-tecnica-de-um-laboratorio-de-analises-clinicas.jpg")}
           />
           <p>
@@ -51,7 +49,7 @@ const Main = () => {
         </Link>
         <Link to='/pesquisa' className="link">
           <CardVertical
-            descricao="Veja as nossas pesquisas! Desenvolvemos estratégias de minimização de impactos ambientais entre outras coisas."
+            descricao="Veja as nossas pesquisas! Desenvolvemos estratégias de minimização de impactos ambientais e muito mais."
             title="Pesquisas"
             img={require("../../assets/img/5f840d2871a3e43b690264b2_12087782_964117646985212_870508845211879943_o.jpg")}
           />

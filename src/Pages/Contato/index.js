@@ -48,6 +48,7 @@ const Contato = () => {
   return (
     <>
       <div className="container-conteudo-page">
+        <h1>Entre em contato</h1>
         <form className="container" onSubmit={handleSubmit}>
           <div className="input-field col s6">
             <input
